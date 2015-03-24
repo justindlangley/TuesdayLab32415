@@ -1,0 +1,6 @@
+c:\users\justi_000\documents\visual studio 2013\Projects\Tuesdaylab32415\Tuesdaylab32415\bin\Debug\Tuesdaylab32415.exe.config
+c:\users\justi_000\documents\visual studio 2013\Projects\Tuesdaylab32415\Tuesdaylab32415\obj\Debug\Tuesdaylab32415.csprojResolveAssemblyReference.cache
+c:\users\justi_000\documents\visual studio 2013\Projects\Tuesdaylab32415\Tuesdaylab32415\bin\Debug\Tuesdaylab32415.exe
+c:\users\justi_000\documents\visual studio 2013\Projects\Tuesdaylab32415\Tuesdaylab32415\bin\Debug\Tuesdaylab32415.pdb
+c:\users\justi_000\documents\visual studio 2013\Projects\Tuesdaylab32415\Tuesdaylab32415\obj\Debug\Tuesdaylab32415.exe
+c:\users\justi_000\documents\visual studio 2013\Projects\Tuesdaylab32415\Tuesdaylab32415\obj\Debug\Tuesdaylab32415.pdb
