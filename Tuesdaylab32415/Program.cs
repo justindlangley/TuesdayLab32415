@@ -11,6 +11,8 @@ namespace Tuesdaylab32415
         static void Main(string[] args)
         {
 
+            //Bank deposit example
+
             //var yearTotal = 35 * 365;
             //var beginningBalance = 0;
             //int[] year = new int[] { 1, 2, 5, 10 };
@@ -25,7 +27,7 @@ namespace Tuesdaylab32415
 
 
 
-
+            //Land area problem
 
 
             //Console.WriteLine("Please enter the width of the relevant land parcel in yards: ");
@@ -71,11 +73,29 @@ namespace Tuesdaylab32415
 
             //extra credit
 
-            //var a = Console.
-            //var b = new int b;
+            Console.WriteLine("Enter in a value for a in the quadratic equation");
+            var a = Console.ReadLine(); 
+            var A = int.Parse(a);
+            Console.WriteLine("Enter in a value for b in the quadratic equation");
+            var b = Console.ReadLine();
+            var B = int.Parse(b);
+            Console.WriteLine("Enter in a value for c in the quadratic equation");
+            var c = Console.ReadLine();
+            var C = int.Parse(c);
+
+            var q = ((B * B) - (4 * A * C));
+            var Q = Math.Pow(q, 0.5);
+            
+            var posroot = ((-(B) + Q) / (2 * A));
+            var negroot = ((-(B) - Q) / (2 * A));
+            Console.WriteLine(string.Format("The positive root of this quadratic equation is: {0}"), posroot);
+            Console.WriteLine(string.Format("The negative root of this qquadraticc equation is: {0}"), negroot);
+            Console.ReadLine();
 
 
-            //Lecture
+
+
+            //String Lecture and afternoon lab
 
             //string hello = "This is some text";
             //Console.WriteLine(hello);
@@ -88,31 +108,31 @@ namespace Tuesdaylab32415
             //Console.WriteLine("Nothing here.");
 
 
-            int wordCount = args.Count();
-            string output = null;
-            for (int i = wordCount - 1; i >= 0; i--)
-            {
+            //int wordCount = args.Count();
+            //string output = null;
+            //for (int i = wordCount - 1; i >= 0; i--)
+            //{
                 
-                output = string.Concat(output, args[i], " ");
-            }
+            //    output = string.Concat(output, args[i], " ");
+            //}
 
             
-            string output2 = null;
-            for (int i = 0; i < wordCount; i++)
-            {
+            //string output2 = null;
+            //for (int i = 0; i < wordCount; i++)
+            //{
 
-                output2 = string.Concat(output2, args[i].ToUpper(), " ");
-            }
-            string output3 = null;
-            for (int i = 0; i < wordCount; i++)
-            {
+            //    output2 = string.Concat(output2, args[i].ToUpper(), " ");
+            //}
+            //string output3 = null;
+            //for (int i = 0; i < wordCount; i++)
+            //{
 
-                output3 = string.Concat(output3, args[i], " , ");
-            }
-            Console.WriteLine(output);
-            Console.WriteLine(output2);
-            Console.WriteLine(output3);
-            Console.ReadLine();
+            //    output3 = string.Concat(output3, args[i], " , ");
+            //}
+            //Console.WriteLine(output);
+            //Console.WriteLine(output2);
+            //Console.WriteLine(output3);
+            //Console.ReadLine();
 
 
         }
