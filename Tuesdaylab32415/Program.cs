@@ -30,23 +30,23 @@ namespace Tuesdaylab32415
             //Land area problem
 
 
-            //Console.WriteLine("Please enter the width of the relevant land parcel in yards: ");
+            Console.WriteLine("Please enter the width of the relevant land parcel in yards: ");
 
-            //    var userWidth = Console.ReadLine();
-            //    var width = int.Parse(userWidth); 
+            var userWidth = Console.ReadLine();
+            var width = int.Parse(userWidth);
 
-            //Console.WriteLine("Please enter the length of the relevant land parcel in yards: ");         
+            Console.WriteLine("Please enter the length of the relevant land parcel in yards: ");
 
-            //    var userLength = Console.ReadLine();
-            //    var length = int.Parse(userLength);
-            //    var userArea = (width * length);                    
+            var userLength = Console.ReadLine();
+            var length = int.Parse(userLength);
+            var userArea = (width * length);
 
-            //    var userPerimeter = (2 * width) + (2 * length);
-            //    var totalCost = (userArea * 5) + (userPerimeter * 0.75);
+            var userPerimeter = (2 * width) + (2 * length);
+            var totalCost = (userArea * 5) + (userPerimeter * 0.75);
 
-            //Console.WriteLine(string.Format ("The area of the parcel you entered is {0} and the perimeter is {1}.", userArea, userPerimeter));
-            //Console.WriteLine(string.Format("The total cost of the land parcel you wish to purchase is {0:C}", totalCost));
-            //Console.ReadLine();
+            Console.WriteLine(string.Format("The area of the parcel you entered is {0} and the perimeter is {1}.", userArea, userPerimeter));
+            Console.WriteLine(string.Format("The total cost of the land parcel you wish to purchase is {0:C}", totalCost));
+            Console.ReadLine();
 
 
             //int userPerimeter = (2 * userWidth) + (2 * userLength);   
@@ -73,24 +73,27 @@ namespace Tuesdaylab32415
 
             //extra credit
 
-            Console.WriteLine("Enter in a value for a in the quadratic equation");
-            var a = Console.ReadLine(); 
-            var A = int.Parse(a);
-            Console.WriteLine("Enter in a value for b in the quadratic equation");
-            var b = Console.ReadLine();
-            var B = int.Parse(b);
-            Console.WriteLine("Enter in a value for c in the quadratic equation");
-            var c = Console.ReadLine();
-            var C = int.Parse(c);
+            //Console.WriteLine("Enter in a value for a in the quadratic equation");
+            //var a = Console.ReadLine(); 
+            //var A = int.Parse(a);
+            //Console.WriteLine("Enter in a value for b in the quadratic equation");
+            //var b = Console.ReadLine();
+            //var B = int.Parse(b);
+            //Console.WriteLine("Enter in a value for c in the quadratic equation");
+            //var c = Console.ReadLine();
+            //var C = int.Parse(c);
 
-            var q = ((B * B) - (4 * A * C));
-            var Q = Math.Pow(q, 0.5);
+            //var q = ((B * B) - (4 * A * C));
+            //var Q = Math.Pow(q, 0.5);
             
-            var posroot = ((-(B) + Q) / (2 * A));
-            var negroot = ((-(B) - Q) / (2 * A));
-            Console.WriteLine(string.Format("The positive root of this quadratic equation is: {0}"), posroot);
-            Console.WriteLine(string.Format("The negative root of this qquadraticc equation is: {0}"), negroot);
-            Console.ReadLine();
+            //double posroot = ((-(B) + Q) / (2 * A));
+            //double negroot = ((-(B) - Q) / (2 * A));
+            //Console.WriteLine(string.Format("The positive root of this quadratic equation is: {0}", posroot));
+            //Console.WriteLine(string.Format("The negative root of this qquadraticc equation is: {0}", negroot));
+            //Console.ReadLine();
+
+            //return;
+
 
 
 
